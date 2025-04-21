@@ -2,12 +2,131 @@
 
 /*TELAS PEQUENAS */
 
-@media screen and (max-width: 375px) {
-    body {
-      flex-direction: column;
-      background-image: url('./images/bg-mobile.svg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: top;
-    }
+@media screen and (min-width: 375px) and (max-width: 790px) {
+    /*Configuração para fundo da tela - Background*/
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-image: url('./images/bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Main*/
+  main {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*Container imagem e  texto lado a lado */
+div.container {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*Logo da Huddle*/
+.logo-huddle {
+  width: 600px;
+  margin: 30px 60px 40px 20px;
+
+}
+
+.imagem-huddle{
+  height: 20%;
+  margin-top: 30px;
+  align-self: flex-start;
+}
+
+/*Imagem da tela do Huddle a esquerda*/
+
+.imagem-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 350px;
+  margin: auto;
+}
+
+.imagem-principal-1 {
+  width: 90%;
+  height: 60%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+/*texto  da tela do Huddle a esquerda*/
+ .texto-direito {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 300px;
+}
+
+  h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 35px;
+      color: white;
+      margin: 40px 30px 10px;
+      justify-content: center;
+  
+      text-align: center;
   }
+
+  p {
+      width: 600px;
+      color: white;
+      font-family: "Open Sans", sans-serif;
+      font-size: 25px;
+      margin: 20px 30px 15px;
+      padding-right: 10px;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+  }
+
+/*Botão Registrar-se*/
+
+input {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.botao-registrar {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+/*Redes sociaa*/
+.Logo-redes-sociais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 1px;
+}
+
+.Logo-redes-sociais ion-icon {
+  font-size: 20px;
+  margin: 10px 5px;
+ }
+
+}
