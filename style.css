@@ -9,8 +9,9 @@
   font-family: "Open Sans", sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/*Reset para toda tela*/
 
-    /*Reset para toda tela*/
+ 
 * {
     margin: 0;
     padding: 0;
@@ -46,16 +47,15 @@ body {
  /*Logotipo Huggle*/
 
  .logo-huddle {
-    width: 40%;
+    width: 60%;
     height: auto;
-    align-self: flex-start;
-    margin: 40px 350px;
+    display: flex;
+    margin: 40px 150px;
 
  }
 
  img.imagem-huddle{
-    width: 50%;
-    display: flex;
+    align-items: flex-start;
  }
 
  /*Container imagem e  texto lado a lado */
@@ -114,7 +114,7 @@ input {
     border-radius: 60%;
   }
 
-input.botao-registrar {
+.botao-registrar {
     font-family: "Poppins", sans-serif;
     padding: 10px 20px; 
     font-size: 16px; 
@@ -158,5 +158,4 @@ input.botao-registrar {
     color: hsl(300, 69%, 71%);
     border: 2px solid hsl(300, 69%, 71%);
 }
-
 

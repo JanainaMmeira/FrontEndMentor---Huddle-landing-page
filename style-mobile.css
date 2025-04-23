@@ -1,132 +1,120 @@
 @charset "UTF-8";
 
 /*TELAS PEQUENAS */
+@media screen and (min-width: 320px) {
+  /* Configuração para fundo da tela - Background */
 
-@media screen and (min-width: 375px) and (max-width: 790px) {
-    /*Configuração para fundo da tela - Background*/
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  background-image: url('./images/bg-mobile.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/*Main*/
-  main {
+  body {
     width: 100vw;
     height: 100vh;
-}
+    background-image: url('images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+     }
 
+    /* Logotipo Huggle */
 
-/*Container imagem e  texto lado a lado */
-div.container {
-  width: 90vw;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
+  img.imagem-huddle {
+    width: 120px;
+    max-width: 350px;
+    margin: 20px;
+    display: block; 
+  }
 
-/*Logo da Huddle*/
-.logo-huddle {
-  width: 600px;
-  margin: 30px 60px 40px 20px;
+  /* Container imagem e texto lado a lado */
+  div.container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+  }
 
-}
+  /* Imagem da tela do Huddle à esquerda */
+  .imagem-principal-1 {
+    width: 90%; 
+    max-width: 600px; 
+    transform: translate(10%);
 
-.imagem-huddle{
-  height: 20%;
-  margin-top: 30px;
-  align-self: flex-start;
-}
+  }
 
-/*Imagem da tela do Huddle a esquerda*/
-
-.imagem-principal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  flex-basis: 350px;
-  margin: auto;
-}
-
-.imagem-principal-1 {
-  width: 90%;
-  height: 60%;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-}
-/*texto  da tela do Huddle a esquerda*/
- .texto-direito {
-  width: 50%;
-  height: 50%;
-  margin: auto;
-  text-align: justify;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  flex-basis: 300px;
-}
+  /* Texto da tela do Huddle à direita */
+  .texto-direito {
+    width: 90%; 
+    max-width: 600px; 
+    text-align: center;
+    margin-left: 10px;
+    line-height: 1.3; 
+  }
 
   h1 {
-      font-family: "Poppins", sans-serif;
-      font-weight: 600;
-      font-size: 35px;
-      color: white;
-      margin: 40px 30px 10px;
-      justify-content: center;
-  
-      text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    color: white;
+    margin: 20px 0px 0 0px;
+    padding-bottom: 15px;
   }
 
   p {
-      width: 600px;
-      color: white;
-      font-family: "Open Sans", sans-serif;
-      font-size: 25px;
-      margin: 20px 30px 15px;
-      padding-right: 10px;
-      justify-content: center;
-      text-align: center;
-      margin: auto;
+    width: 100%; 
+    max-width: 500px; 
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    
+    margin: 0; /* Remove margens padrão */
   }
 
-/*Botão Registrar-se*/
+  /* Botão Registrar-se */
 
-input {
-  width: 250px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  border-radius: 100%;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  .botao-registrar {
+    font-family: "Poppins", sans-serif;
+    padding: 10px 50px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    border-radius: 25px;
+  
+    transition: background-color 0.3s; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+  }
+  
+    input.botao-registrar:hover {
+      background-color: hsl(300, 69%, 71%);;
+      color: white;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+
+
+  /* Configuração para as redes sociais */
+  .Logo-redes-sociais {
+    margin: auto;
+    transform: translate(35%, 130%); 
+    gap: 10px; 
+    font-size: 40px;
+
+    border-radius: 50%;
+  }
+
+  .Logo-redes-sociais ion-icon {
+    font-size: 20px;
+    color: white; 
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .Logo-redes-sociais ion-icon:hover {
+    transform: scale(1.2);
+    color: hsl(300, 69%, 71%);
+    border: 2px solid hsl(300, 69%, 71%);
 }
-
-.botao-registrar {
-  padding: 10px 20px;
-  font-size: 20px;
-}
-
-/*Redes sociaa*/
-.Logo-redes-sociais{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  margin-bottom: 1px;
-}
-
-.Logo-redes-sociais ion-icon {
-  font-size: 20px;
-  margin: 10px 5px;
- }
 
 }
