@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*TELAS PEQUENAS */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 765px) {
   /* Configuração para fundo da tela - Background */
 
   body {
