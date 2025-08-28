@@ -63,14 +63,6 @@ Se você quiser contribuir para este projeto, siga estes passos:
 
 ---
 
-## 📝 Autor
-
-| [<img src="https://avatars.githubusercontent.com/u/your-github-username" width="100px; alt="Seu Nome">](https://github.com/your-github-username) |
-| :---: |
-| [Seu Nome](https://github.com/your-github-username) |
-
----
-
 ## <div align="center">📜 Licença </div>
 
 <p> Este projeto está sob a licença MIT. </p>
