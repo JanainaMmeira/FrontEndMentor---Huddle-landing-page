@@ -5,12 +5,11 @@
 </p>
 
 <div align="center">
- 
-![GitHub repo size](https://img.shields.io/github/repo-size/janainammeira/Projeto-Cordel?color=blue)  
-![GitHub last commit](https://img.shields.io/github/last-commit/janainammeira/Projeto-Cordel?color=brightgreen)
+  
+![GitHub repo size](https://img.shields.io/github/repo-size/Janainammeira/FrontEndMentor---Huddle-landing-page?color=blue) 
+![GitHub last commit](https://img.shields.io/github/last-commit/Janainammeira/FrontEndMentor---Huddle-landing-page?color=brightgreen)
 
 </div>
-
 
 <h1 align="center"> 📋 Sobre o Projeto</h1>
 
